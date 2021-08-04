@@ -115,11 +115,11 @@ const Main = ({ children, themeToggler, themeMode }) => {
           pages: [
             {
               title: 'Digital Transformation',
-              href: '/',
+              href: '/digital-transformation',
             },
             {
               title: 'Talent Augmentation',
-              href: '/rental',
+              href: '/talent-augmentation',
             }
 
           ],
