@@ -1,10 +1,10 @@
 import * as colors from "@material-ui/core/colors";
 
 export const features = [
-  'Looking for a high-profile, flexible digital talent',
+  'Looking for a high-profile, temporary digital talent',
   'Looking for additional resources for a fixed term project',
-  "In need to rapidly close skills gap in the digital focused team",
-  'Can not afford to take the risk of wrong hire',
+  "Looking to quickly close skills gap in digital focused team",
+  'Looking to outsource internal projects that require digital experts',
 ];
 
 export const jobs = [

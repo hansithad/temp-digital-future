@@ -51,8 +51,8 @@ const Features = props => {
           <Section>
             <>
             <SectionHeader
-              title="Who is the service for?"
-              subtitle="Our staff augmentation service will come handy for those who:"
+              title="Who can benefit from our talent services?"
+              subtitle="Following companies will find our services highly valuable:"
               align="left"
               data-aos="fade-up"
               titleProps={{
