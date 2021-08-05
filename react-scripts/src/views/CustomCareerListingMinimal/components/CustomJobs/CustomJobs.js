@@ -48,11 +48,6 @@ const CustomJobs = props => {
             />
           </Grid>
         ))}
-        <Grid item container justify="center" xs={12} data-aos="fade-up">
-          <Button variant="contained" color="primary" size="large">
-            See all jobs
-          </Button>
-        </Grid>
       </Grid>
     </div>
   );
