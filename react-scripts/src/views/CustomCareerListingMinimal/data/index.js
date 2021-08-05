@@ -138,19 +138,19 @@ export const jobs = [
 
 export const aricles = [
   {
-    title: 'Bespoke talent sourcing',
+    title: 'Customized Talent Acquisition',
     subtitle:
-      'Get talent suitable to your needs. Upon defining the candidate\'s profile we will either assign our expert or acquire new talent matching your requirements.',
+      'Your company and teams are unique. Being a boutique talent acquisition partner we will support you to identify right candidates, matching the required mix of digital skills and culture fit factors.',
   },
   {
-    title: 'Managed HR Processes',
+    title: 'Temporary Talent Augmentation',
     subtitle:
-      'Reduce time to hire. Supplying your team with our experts will save you time and effort on hiring and HR administration processes like offer letters, contract, visa, offboarding.',
+      'Reduce time to hire for temporary contracts. Extending your team with digital experts hired with our company will reduce the time and cost of recruitment and administrative processes.',
   },
   {
-    title: 'Managed Talent Augmentation',
+    title: 'Outsourced and Managed Services',
     subtitle:
-      'Not really confident how to get the best results? Consider a hybrid staff augmentation model: define expected deliverables let us manage the team to get your results delivered.',
+      'Outsource your high profile digital projects. Define expected deliverables and let us build and manage the team to deliver the results with predictable expenses and timelines.',
   },
 ];
 
