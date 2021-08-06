@@ -50,6 +50,10 @@ const useStyles = makeStyles(theme => ({
   },
   paddingTop:{
     paddingTop: 0
+  },
+  paddingTopAndBottom:{
+    paddingTop: 0,
+    paddingBottom: 0
   }
 }));
 
@@ -116,7 +120,7 @@ const CustomCareerListingMinimal = () => {
           <OldTalentFeatures data={oldTalentFeatures} />
         </Section>
       </div>
-      <Section>
+      <Section className={classes.paddingTopAndBottom}>
         <Teaser/>
       </Section>
       <Section className={classes.paddingTop}>
