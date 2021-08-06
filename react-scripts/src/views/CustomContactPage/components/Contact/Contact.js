@@ -32,7 +32,12 @@ const Contact = props => {
           <div>
             <SectionHeader
               title="About us"
-              subtitle="We are a MENA focused company offering digital implementation and digital talent augmentation services. Our main fields of expertise are cloud based data and tech solutions that boost internal efficiency of businesses. Our main office is in Dubai Internet City, Building 1 Premises 112. You can also connect with us through:"
+              subtitle={
+                <div>
+                  <p>We are a middle eastern technology and talent consultancy company with deep understanding of regional dynamics. Our main fields of expertise are cloud based data solutions as well as temporary digital talent delivery solutions - all that to help you boost internal efficiency of your business.</p>
+                  <p>Our head office is in Dubai, Internet City, Innovation Hub Building 2 and you are always welcome to visit us for a coffee.</p>
+                </div>
+              }
               subtitleProps={{
                 variant: 'body1',
                 color: 'textPrimary',
@@ -93,7 +98,7 @@ const Contact = props => {
                 </ListItemAvatar>
                 <ListItemText
                   primary="Head Office"
-                  secondary="Dubai Internet City Building 1 Premises 112"
+                  secondary="Dubai Internet City Innovation Hub Building 2, Premises 104"
                   primaryTypographyProps={{
                     variant: 'subtitle1',
                     color: 'textSecondary',
