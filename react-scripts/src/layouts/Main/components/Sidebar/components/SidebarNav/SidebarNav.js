@@ -181,17 +181,23 @@ const SidebarNav = props => {
         </Typography>
       </ListItem>
       <ListItem className={classes.listItem}>
-        <Typography
-          variant="body2"
-          component={'a'}
-          href='/talent-augmentation'
-          className={clsx(classes.navLink, 'submenu-item')}
-          color="textPrimary"
-          onClick={() => onClose()}
-        >
-          Talent Augmentation
+        <Typography variant="h6" color="textPrimary" gutterBottom>
+          Talent Services
         </Typography>
+        <CloudProductPages />
       </ListItem>
+      {/*<ListItem className={classes.listItem}>*/}
+        {/*<Typography*/}
+          {/*variant="body2"*/}
+          {/*component={'a'}*/}
+          {/*href='/talent-augmentation'*/}
+          {/*className={clsx(classes.navLink, 'submenu-item')}*/}
+          {/*color="textPrimary"*/}
+          {/*onClick={() => onClose()}*/}
+        {/*>*/}
+          {/*Talent Augmentation*/}
+        {/*</Typography>*/}
+      {/*</ListItem>*/}
       <ListItem className={classes.listItem}>
         <Divider className={classes.divider} />
       </ListItem>

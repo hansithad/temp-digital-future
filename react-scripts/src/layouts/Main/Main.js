@@ -21,36 +21,21 @@ const Main = ({ children, themeToggler, themeMode }) => {
 
   const pages = {
     cloudProducts:{
-        title: 'Cloud Products',
+        title: 'Talent Augmentation',
         id: 'cloud-products',
         children:{
             products: {
                 groupTitle: '',
                 pages: [
-                    {
-                        title: 'Google Workspace Business',
-                        href: '/google-workspace-business',
-                    },
-                    {
-                        title: 'Google Workspace Enterprise',
-                        href: '/rental',
-                    },
-                    {
-                        title: 'Chrome Enterprise',
-                        href: '/job-listing',
-                    },
-                    {
-                        title: 'Meet Hardware',
-                        href: '/e-learning',
-                    },
-                    {
-                        title: 'Google BigQuery',
-                        href: '/e-commerce',
-                    },
-                    {
-                        title: 'Data Dashboards',
-                        href: '/expo',
-                    },
+                  {
+                    title: 'Talent Services',
+                    href: '/talent-augmentation',
+                  },
+                  {
+                      title: 'Customized Talent Acquisition',
+                      href: '/customized-talent-acquisition',
+                  },
+
                 ],
             },
         }

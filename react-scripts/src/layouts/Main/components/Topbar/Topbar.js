@@ -330,7 +330,7 @@ const Topbar = ({ themeMode, themeToggler, onSidebarOpen, pages, className, ...r
       <div className={classes.flexGrow} />
       <Hidden smDown>
         <List disablePadding className={classes.navigationContainer}>
-        {[home,digitalTransformation,staffAugmentation].map((page, i) => (
+        {[home,digitalTransformation].map((page, i) => (
             <div key={page.id}>
                 <ListItem
                     aria-describedby={page.id}
@@ -351,6 +351,53 @@ const Topbar = ({ themeMode, themeToggler, onSidebarOpen, pages, className, ...r
                 </ListItem>
             </div>
         ))}
+
+          {[cloudProducts].map((page, i) => (
+            <div key={page.id}>
+              <ListItem
+                aria-describedby={page.id}
+                onClick={e => handleClick(e, page.id)}
+                className={clsx(
+                  classes.listItem,
+                  openedPopoverId === page.id ? classes.listItemActive : '',
+                )}
+              >
+                <Typography
+                  variant="body1"
+                  color="textPrimary"
+                  className={clsx(classes.listItemText, 'menu-item')}
+                >
+                  {page.title}
+                </Typography>
+                <ListItemIcon className={classes.listItemIcon}>
+                  <ExpandMoreIcon
+                    className={
+                      openedPopoverId === page.id ? classes.expandOpen : ''
+                    }
+                    fontSize="small"
+                  />
+                </ListItemIcon>
+              </ListItem>
+              <Popover
+                elevation={1}
+                id={page.id}
+                open={openedPopoverId === page.id}
+                anchorEl={anchorEl}
+                onClose={handleClose}
+                anchorOrigin={{
+                  vertical: 'bottom',
+                  horizontal: 'center',
+                }}
+                transformOrigin={{
+                  vertical: 'top',
+                  horizontal: 'center',
+                }}
+                classes={{ paper: classes.popover }}
+              >
+                <div>{renderPages(page.id)}</div>
+              </Popover>
+            </div>
+          ))}
           <ListItem className={clsx(classes.listItem, 'menu-item--no-dropdown')}>
             <DarkModeToggler themeMode={themeMode} onClick={() => themeToggler()} />
           </ListItem>

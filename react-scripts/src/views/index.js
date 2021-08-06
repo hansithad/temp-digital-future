@@ -50,3 +50,4 @@ export { default as Account } from './Account';
 export { default as Documentation } from './Documentation';
 export { default as NotFound } from './NotFound';
 export { default as NotFoundCover } from './NotFoundCover';
+export { default as CloudDataWareHouse } from './CloudDataWareHouse';

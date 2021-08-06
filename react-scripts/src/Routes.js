@@ -61,6 +61,7 @@ import {
   Documentation as DocumentationView,
   NotFound as NotFoundView,
   NotFoundCover as NotFoundCoverView,
+  CloudDataWareHouse as CloudDataWareHouseView,
 } from './views';
 
 const Routes = () => {
@@ -205,6 +206,17 @@ const Routes = () => {
           <WithLayout
             {...matchProps}
             component={CustomCareerListingMinimalView}
+            layout={MainLayout}
+          />
+        )}
+      />
+      <Route
+        exact
+        path="/customized-talent-acquisition"
+        render={matchProps => (
+          <WithLayout
+            {...matchProps}
+            component={CloudDataWareHouseView}
             layout={MainLayout}
           />
         )}
