@@ -159,18 +159,18 @@ export const oldTalentFeatures = [
     icon: 'far fa-comment',
     title: `360 Digital`,
     subtitle:
-      'We are exceptionally strong in Digital Industries. Whether you want to expand your tech team or market your tech product, we’ll take on our digital experience to strenghten your team with exceptional talent and make your projects even brighter.',
+      'We are exceptionally strong in the digital industries. Whether you want to expand your tech team or market your tech product, we’ll take on our digital experience to strengthen your team with exceptional talent and make your projects even brighter.',
   },
   {
     icon: 'far fa-paper-plane',
     title: 'Risk Free',
     subtitle:
-      'Building in-house capabilities is costly and risky venture for companies of different core business. Building an effective team is a matter of months. We will provide you with required knowledge with a fraction of time and cost.',
+      'Building in-house capabilities is a costly and risky venture for companies of a different core business. Building an effective team is a matter of months. We will provide you with the required knowledge at a fraction of time and cost.',
   },
   {
     icon: 'far fa-heart',
     title: 'Stress Free',
     subtitle:
-      'Focus only on your internal projects and its final outcomes, let us worry about the talent and expertise supply for the project. We will manage all the administration, onboarding and offboarding process so you can focus on what is important.',
+      'Focus on your internal projects and their final outcome, let us worry about the talent for these projects. We can manage all the elements of your temporary talent management process: acquisition, administration, onboarding and offboarding.',
   },
 ];
