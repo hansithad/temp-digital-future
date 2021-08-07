@@ -167,9 +167,7 @@ const CloudDataWareHouse = () => {
       <Section style={{paddingTop:0}}>
         <Features data={customizations} handleBottombarOpen={handleBottombarOpen} />
       </Section>
-      <Section style={{paddingTop:0}}>
-        <CloudFeatures data={cloudFeatures} />
-      </Section>
+      <CloudFeatures data={cloudFeatures} />
       <SectionAlternate style={{paddingTop:0}}>
         <CustomJobs data={jobs}/>
       </SectionAlternate>

@@ -67,17 +67,36 @@ const SidebarNav = props => {
 
   const MenuGroup = props => {
     const { item } = props;
+    console.log('item is');
+    console.log(item);
     return (
       <List disablePadding>
-        <ListItem disableGutters>
+        {
+          item.groupTitle && <ListItem disableGutters>
           <Typography
-            variant="body2"
-            color="primary"
-            className={classes.menuGroupTitle}
+          variant="body2"
+          color="primary"
+          className={classes.menuGroupTitle}
           >
-            {item.groupTitle}
+          {item.groupTitle}
           </Typography>
-        </ListItem>
+          </ListItem>
+        }
+
+        {
+          item.linkedGroupTitle && <ListItem disableGutters>
+            <Typography
+              variant="body2"
+              color="primary"
+              component={'a'}
+              href={item.linkedGroupTitle.href}
+              className={classes.menuGroupTitle}
+            >
+              {item.linkedGroupTitle.title}
+            </Typography>
+          </ListItem>
+        }
+
         {item.pages.map((page, i) => (
           <ListItem disableGutters key={i} className={classes.menuGroupItem}>
             <Typography
@@ -182,7 +201,7 @@ const SidebarNav = props => {
       </ListItem>
       <ListItem className={classes.listItem}>
         <Typography variant="h6" color="textPrimary" gutterBottom>
-          Talent Services
+          Talent Augmentation
         </Typography>
         <CloudProductPages />
       </ListItem>

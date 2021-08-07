@@ -181,6 +181,20 @@ const Topbar = ({ themeMode, themeToggler, onSidebarOpen, pages, className, ...r
               </ListItem>
           }
 
+        {
+          item.linkedGroupTitle && <ListItem disableGutters>
+            <Typography
+              variant="body2"
+              color="primary"
+              component={'a'}
+              href={item.linkedGroupTitle.href}
+              className={classes.menuGroupTitle}
+            >
+              {item.linkedGroupTitle.title}
+            </Typography>
+          </ListItem>
+        }
+
         {item.pages.map((page, i) => (
           <ListItem disableGutters key={i} className={classes.menuGroupItem}>
             <Typography

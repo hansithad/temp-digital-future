@@ -25,15 +25,23 @@ const Main = ({ children, themeToggler, themeMode }) => {
         id: 'cloud-products',
         children:{
             products: {
-                groupTitle: '',
+                linkedGroupTitle:
+                {
+                  title: 'Talent Services',
+                  href: '/talent-augmentation',
+                },
                 pages: [
-                  {
-                    title: 'Talent Services',
-                    href: '/talent-augmentation',
-                  },
                   {
                       title: 'Customized Talent Acquisition',
                       href: '/customized-talent-acquisition',
+                  },
+                  {
+                    title: 'Temporary Talent Augmentation',
+                    href: '/customized-talent-acquisition',
+                  },
+                  {
+                    title: 'Outsourced and Managed Services',
+                    href: '/customized-talent-acquisition',
                   },
 
                 ],
