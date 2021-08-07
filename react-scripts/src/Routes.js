@@ -63,6 +63,7 @@ import {
   NotFoundCover as NotFoundCoverView,
   CloudDataWareHouse as CloudDataWareHouseView,
   TemporaryTalentAugmentation as TemporaryTalentAugmentationView,
+  Outsource as OutsourceView,
 } from './views';
 
 const Routes = () => {
@@ -240,7 +241,7 @@ const Routes = () => {
         render={matchProps => (
           <WithLayout
             {...matchProps}
-            component={CloudDataWareHouseView}
+            component={OutsourceView}
             layout={MainLayout}
           />
         )}
