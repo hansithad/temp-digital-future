@@ -24,6 +24,9 @@ const Articles = props => {
               subtitle={item.subtitle}
               subtitleColor="textPrimary"
               subtitleVariant="body1"
+              ctaGroup={[
+                <LearnMoreLink title="Learn more" variant="subtitle1" href={item.link}  />,
+              ]}
               align="left"
               disableGutter
             />

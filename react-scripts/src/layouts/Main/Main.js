@@ -37,12 +37,12 @@ const Main = ({ children, themeToggler, themeMode }) => {
                   },
                   {
                     title: 'Temporary Talent Augmentation',
-                    href: '/customized-talent-acquisition',
+                    href: '/temporary-talent-augmentation',
                   },
                   {
                     title: 'Outsourced and Managed Services',
-                    href: '/customized-talent-acquisition',
-                  },
+                    href: '/outsourced-and-managed-services',
+                  }
 
                 ],
             },

@@ -42,7 +42,7 @@ const LearnMoreLink = props => {
   } = props;
 
   const classes = useStyles();
-
+  console.log('color is '+color);
   const children = (
     <>
       <Typography

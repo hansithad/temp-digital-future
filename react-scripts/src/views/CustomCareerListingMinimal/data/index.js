@@ -138,16 +138,19 @@ export const jobs = [
 
 export const aricles = [
   {
+    link:'/customized-talent-acquisition',
     title: 'Customized Talent Acquisition',
     subtitle:
-      'Your company and teams are unique. Being a boutique talent acquisition partner we will support you to identify right candidates, matching the required mix of digital skills and culture fit factors.',
+      'Your company and teams are unique. Being a boutique talent acquisition partner we support to identify right candidates, matching the required mix of digital skills and culture fit factors',
   },
   {
+    link:'/temporary-talent-augmentation',
     title: 'Temporary Talent Augmentation',
     subtitle:
       'Reduce time to hire for temporary contracts. Extending your team with digital experts hired with our company will reduce the time and cost of recruitment and administrative processes.',
   },
   {
+    link:'/outsourced-and-managed-services',
     title: 'Outsourced and Managed Services',
     subtitle:
       'Outsource your high profile digital projects. Define expected deliverables and let us build and manage the team to deliver the results with predictable expenses and timelines.',

@@ -62,6 +62,7 @@ import {
   NotFound as NotFoundView,
   NotFoundCover as NotFoundCoverView,
   CloudDataWareHouse as CloudDataWareHouseView,
+  TemporaryTalentAugmentation as TemporaryTalentAugmentationView,
 } from './views';
 
 const Routes = () => {
@@ -213,6 +214,29 @@ const Routes = () => {
       <Route
         exact
         path="/customized-talent-acquisition"
+        render={matchProps => (
+          <WithLayout
+            {...matchProps}
+            component={CloudDataWareHouseView}
+            layout={MainLayout}
+          />
+        )}
+      />
+
+      <Route
+        exact
+        path="/temporary-talent-augmentation"
+        render={matchProps => (
+          <WithLayout
+            {...matchProps}
+            component={TemporaryTalentAugmentationView}
+            layout={MainLayout}
+          />
+        )}
+      />
+      <Route
+        exact
+        path="/outsourced-and-managed-services"
         render={matchProps => (
           <WithLayout
             {...matchProps}

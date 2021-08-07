@@ -51,3 +51,6 @@ export { default as Documentation } from './Documentation';
 export { default as NotFound } from './NotFound';
 export { default as NotFoundCover } from './NotFoundCover';
 export { default as CloudDataWareHouse } from './CloudDataWareHouse';
+export { default as TemporaryTalentAugmentation } from './TemporaryTalentAugmentation';
+
+
