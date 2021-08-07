@@ -158,8 +158,8 @@ const CloudDataWareHouse = () => {
         <Divider />
       </Section>
       <Section id={'learnMoreSection'} style={{paddingTop:0}}>
-        <MobileApp imageUrl='monitor' imageSide='right' data={mobileapp1} />
-        <MobileApp imageUrl='progressiveApp' imageSide='left' data={mobileapp2} />
+        <MobileApp imageUrl='progressiveApp' imageSide='right' data={mobileapp1} />
+        <MobileApp imageUrl='monitor' imageSide='left' data={mobileapp2} />
       </Section>
       <Section style={{paddingTop:0}}>
         <Divider />

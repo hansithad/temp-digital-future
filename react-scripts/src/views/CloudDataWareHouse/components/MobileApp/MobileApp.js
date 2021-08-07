@@ -14,7 +14,7 @@ import { SectionHeader } from 'components/molecules';
 
 import dashboardExtended  from './dashboard-extended.svg'
 import monitor  from './bigq2.png'
-import progressiveApp  from './bigq.png'
+import progressiveApp  from './Talent_Acq_Customized.png'
 import checkYellowImage from '../../../../assets/images/check-icon-yellow.svg';
 
 
@@ -60,7 +60,7 @@ const MobileApp = props => {
     <div className={className} {...rest}>
       { imageSide =='left' && <Grid container spacing={isMd ? 4 : 2}>
         <Grid item container justify="center" xs={12} md={6} data-aos="fade-up" className={classes.centerImage}>
-          <Image src={matchedImageUrl} className={classes.monitorLogo} />
+          <Image src={matchedImageUrl}  />
         </Grid>
         <Grid item xs={12} md={6} data-aos="fade-up">
           <Grid
@@ -130,8 +130,8 @@ const MobileApp = props => {
             </Grid>
           </Grid>
         </Grid>
-        <Grid item container justify="center" xs={12} md={6} data-aos="fade-up">
-          <Image src={matchedImageUrl} />
+        <Grid item container justify="center" xs={12} md={6} data-aos="fade-up" className={classes.centerImage}>
+          <Image src={matchedImageUrl}  />
         </Grid>
       </Grid> }
     </div>
