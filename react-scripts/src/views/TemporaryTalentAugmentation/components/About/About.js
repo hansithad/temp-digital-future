@@ -32,15 +32,15 @@ const About = props => {
               <SectionHeader
                 title={
                   <div>
-                  <p>Hard-To-Find Talent{' '}</p>
+                  <p>Strengthen your teams{' '}</p>
                   <span>
                     <Typography component="span" variant="inherit" color="primary">
-                      For Demanding Digital Projects.
+                      with extended digital talent solutions.
                     </Typography>{' '}
                   </span>
                   </div>
                 }
-                subtitle="While on a mission to find outstanding contract talent you need more than a standard recruitment - our digital capabilities and boutique approach will help you optimize your sourcing process."
+                subtitle="Your digital agenda needs flexible extended staff solutions to thrive. Our contract talent augmentation service will contribute to excellent results through shorter time to hire, instant impact and flexible assignments."
                 ctaGroup={[
                   <Button
                     variant="contained"

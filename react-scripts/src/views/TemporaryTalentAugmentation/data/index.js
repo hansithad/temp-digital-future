@@ -446,24 +446,24 @@ export const cloudFeatures1 = {
 
 export const mobileapp1 = {
   label:'TALENT SOURCING',
-  title:'Customized Approach',
-  subtitle:'A customized, boutique approach we are able to provide helps deliver better culture and role fit candidates.',
+  title:'Flexibility, Instant Impact',
+  subtitle:'Rapidly close the skills gap in a digital focused team and reduce the risk of wrong full time hire.',
   data:[
-    'Internal culture fit requirements analysis helps optimize future talent churn rates',
-    'Iterative approach and individually adjusted sourcing process delivers faster results',
-    "Excluding non-culture-fit candidates saves your interview time",
-    'Kick off a sourcing process even in 24H with an average completion time being 2-4 weeks.',
+    'Assign highly skilled, specialized candidates for instant impact.',
+    'Shorten onboarding through a pre-assignment training program crafted for your company.',
+    "Flexibly adjust the time involvement with part time assignments.",
+    'Flexibly stop/start the assignment as per project needs and SLA agreement.',
   ]};
 
 export const mobileapp2 = {
   label:'TALENT SOURCING',
-  title:'Digital First',
-  subtitle:'Having hands-on digital implementation experience we are capable of sourcing only the right skilled candidates.',
+  title:'Reduced Formalities, Shorter Time To Hire',
+  subtitle:'Adding our employee as an extended talent in your team reduces the burden of employment formalities for your company.',
   data:[
-    'Excluding non skilled candidates saves your interview time',
-    "Project's digital skills requirement analysis helps optimize skills-project fit",
-    "Identifying top skilled candidates helps optimize future project results",
-    'Talent Sourcing supported by digital expert helps deliver faster and lower cost results',
+    'Select digital talent from our pool of employees to instantly join your team.',
+    "Find a specialized talent with our sourcing service and start their assignment in 14 days.",
+    "DF will provide to the candidate a Resident Visa, Dubai Internet City EP and high quality medical Insurance.",
+    'Instantly offboard the candidate from your team when no more in need.',
   ]};
 
 export const cloudFeatures = [
