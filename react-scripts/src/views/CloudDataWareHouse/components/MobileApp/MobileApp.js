@@ -58,7 +58,7 @@ const MobileApp = props => {
 
   return (
     <div className={className} {...rest}>
-      { imageSide =='left' && <Grid container spacing={isMd ? 4 : 2}>
+      { (imageSide =='left' && isMd) && <Grid container spacing={isMd ? 4 : 2}>
         <Grid item container justify="center" xs={12} md={6} data-aos="fade-up" className={classes.centerImage}>
           <Image src={matchedImageUrl}  />
         </Grid>
@@ -94,6 +94,44 @@ const MobileApp = props => {
               ))}
             </Grid>
           </Grid>
+        </Grid>
+      </Grid> }
+      { (imageSide =='left' && !isMd) && <Grid container spacing={isMd ? 4 : 2}>
+        <Grid item xs={12} md={6} data-aos="fade-up">
+          <Grid
+            container
+            alignItems="flex-start"
+            justify="center"
+            direction="column"
+          >
+            <SectionHeader
+              label={data.label}
+              title={data.title}
+              subtitle={data.subtitle}
+              align="left"
+              disableGutter
+            />
+            <Grid container spacing={2}>
+              {data.data.map((item, index) => (
+                <Grid item xs={12} sm={6} key={index} data-aos="fade-up">
+                  <ListItem disableGutters>
+                    <ListItemAvatar className={classes.listItemAvatar}>
+                      <Avatar
+                        src={checkYellowImage}
+                        className={classes.checkBox}
+                      />
+                    </ListItemAvatar>
+                    <Typography variant="subtitle1" color="textPrimary">
+                      {item}
+                    </Typography>
+                  </ListItem>
+                </Grid>
+              ))}
+            </Grid>
+          </Grid>
+        </Grid>
+        <Grid item container justify="center" xs={12} md={6} data-aos="fade-up" className={classes.centerImage}>
+          <Image src={matchedImageUrl}  />
         </Grid>
       </Grid> }
       { imageSide =='right' && <Grid container spacing={isMd ? 4 : 2}>
