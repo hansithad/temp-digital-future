@@ -2,12 +2,10 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import { makeStyles, useTheme } from '@material-ui/core/styles';
 import { useMediaQuery } from '@material-ui/core';
-import { Grid, Typography, Button,CardMedia } from '@material-ui/core';
+import { Grid, Typography, Button } from '@material-ui/core';
 import { Image } from 'components/atoms';
 import { SectionHeader } from 'components/molecules';
-// import home from "./hero.mp4";
 import home from "./Talent_Sourcing_Hero_.png";
-import clsx from "clsx";
 
 const useStyles = makeStyles(theme => ({
   promoLogo: {
