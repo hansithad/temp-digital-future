@@ -177,7 +177,7 @@ const SidebarNav = props => {
 
       <ListItem className={classes.listItem}>
         <Typography
-          variant="body2"
+          variant="h6"
           component={'a'}
           href='/'
           className={clsx(classes.navLink, 'submenu-item')}
@@ -189,7 +189,7 @@ const SidebarNav = props => {
       </ListItem>
       <ListItem className={classes.listItem}>
         <Typography
-          variant="body2"
+          variant="h6"
           component={'a'}
           href='/digital-transformation'
           className={clsx(classes.navLink, 'submenu-item')}
