@@ -187,6 +187,13 @@ const SidebarNav = props => {
           Home
         </Typography>
       </ListItem>
+
+      <ListItem className={classes.listItem}>
+        <Typography variant="h6" color="textPrimary" gutterBottom>
+          Talent Augmentation
+        </Typography>
+        <CloudProductPages />
+      </ListItem>
       <ListItem className={classes.listItem}>
         <Typography
           variant="h6"
@@ -198,12 +205,6 @@ const SidebarNav = props => {
         >
           Digital Transformation
         </Typography>
-      </ListItem>
-      <ListItem className={classes.listItem}>
-        <Typography variant="h6" color="textPrimary" gutterBottom>
-          Talent Augmentation
-        </Typography>
-        <CloudProductPages />
       </ListItem>
       {/*<ListItem className={classes.listItem}>*/}
         {/*<Typography*/}

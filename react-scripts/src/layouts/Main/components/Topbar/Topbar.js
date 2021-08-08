@@ -344,7 +344,7 @@ const Topbar = ({ themeMode, themeToggler, onSidebarOpen, pages, className, ...r
       <div className={classes.flexGrow} />
       <Hidden smDown>
         <List disablePadding className={classes.navigationContainer}>
-        {[home,digitalTransformation].map((page, i) => (
+        {[home].map((page, i) => (
             <div key={page.id}>
                 <ListItem
                     aria-describedby={page.id}
@@ -410,6 +410,28 @@ const Topbar = ({ themeMode, themeToggler, onSidebarOpen, pages, className, ...r
               >
                 <div>{renderPages(page.id)}</div>
               </Popover>
+            </div>
+          ))}
+
+          {[digitalTransformation].map((page, i) => (
+            <div key={page.id}>
+              <ListItem
+                aria-describedby={page.id}
+                className={clsx(
+                  classes.listItem,
+                  openedPopoverId === page.id ? classes.listItemActive : '',
+                )}
+              >
+                <Typography
+                  variant="body1"
+                  color="textPrimary"
+                  component={'a'}
+                  href={page.id}
+                  className={clsx(classes.listItemText, 'menu-item')}
+                >
+                  {page.title}
+                </Typography>
+              </ListItem>
             </div>
           ))}
           <ListItem className={clsx(classes.listItem, 'menu-item--no-dropdown')}>
