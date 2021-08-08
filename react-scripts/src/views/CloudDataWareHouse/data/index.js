@@ -449,21 +449,21 @@ export const mobileapp1 = {
   title:'Customized Approach',
   subtitle:'A customized, boutique approach we are able to provide helps deliver better culture and role fit candidates.',
   data:[
-    'Internal culture fit requirements analysis helps optimize future talent churn rates',
-    'Iterative approach and individually adjusted sourcing process delivers faster results',
-    "Excluding non-culture-fit candidates saves your interview time",
+    'Internal culture fit requirements analysis helps optimize future talent churn rates.',
+    'Iterative approach and individually adjusted sourcing process delivers faster results.',
+    "Excluding non-culture-fit candidates saves your interview time.",
     'Kick off a sourcing process even in 24H with an average completion time being 2-4 weeks.',
   ]};
 
 export const mobileapp2 = {
   label:'TALENT SOURCING',
   title:'Digital First',
-  subtitle:'Having hands-on digital implementation experience we are capable of sourcing only the right skilled candidates.',
+  subtitle:'Having hands-on digital implementation experience we are capable of sourcing only the top skilled candidates.',
   data:[
-    'Excluding non skilled candidates saves your interview time',
-    "Project's digital skills requirement analysis helps optimize skills-project fit",
-    "Identifying top skilled candidates helps optimize future project results",
-    'Talent Sourcing supported by digital expert helps deliver faster and lower cost results',
+    'Excluding non skilled candidates saves your interview time.',
+    "Project's digital skills requirement analysis helps optimize skills-project fit.",
+    "Identifying top skilled candidates helps optimize future project results.",
+    'Talent Sourcing supported by digital expert helps deliver faster and lower cost results.',
   ]};
 
 export const cloudFeatures = [
