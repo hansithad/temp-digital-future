@@ -131,19 +131,19 @@ const Main = ({ children, themeToggler, themeMode }) => {
           ],
         },
         web: {
-          groupTitle: 'Digital Talent',
+          groupTitle: 'Talent Services',
           pages: [
             {
-              title: 'Talent Sourcing',
-              href: '/talent-augmentation',
+              title: 'Customized Talent Acquisition',
+              href: '/customized-talent-acquisition',
             },
             {
-              title: 'Managed HR Processes',
-              href: '/talent-augmentation',
+              title: 'Temporary Talent Augmentation',
+              href: '/temporary-talent-augmentation',
             },
             {
-              title: 'Managed Talent Augmentation',
-              href: '/talent-augmentation',
+              title: 'Outsourced and Managed Services',
+              href: '/outsourced-and-managed-services',
             }
           ],
         },
