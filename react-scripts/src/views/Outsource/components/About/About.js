@@ -5,7 +5,7 @@ import { useMediaQuery } from '@material-ui/core';
 import { Grid, Typography, Button,CardMedia } from '@material-ui/core';
 import { Image } from 'components/atoms';
 import { SectionHeader } from 'components/molecules';
-import home from "./hero.mp4";
+import heroImage from "./Managed Services_Hero.png";
 import clsx from "clsx";
 
 const useStyles = makeStyles(theme => ({
@@ -73,15 +73,7 @@ const About = props => {
           md={6}
           data-aos={'fade-up'}
         >
-            <CardMedia
-                autoPlay
-                loop
-                muted
-                component="video"
-                image={home}
-                title='Intro'
-                className={classes.media}
-            />
+          <Image src={heroImage} />
         </Grid>
       </Grid>
     </div>
