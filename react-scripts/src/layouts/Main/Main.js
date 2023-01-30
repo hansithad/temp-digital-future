@@ -78,6 +78,13 @@ const Main = ({ children, themeToggler, themeMode }) => {
 
       }
     },
+    digitalBootcamps:{
+      title: 'Digital Bootcamps',
+      id: 'https://trainings.digital-future.me/',
+      children:{
+
+      }
+    },
     digitalTransformation:{
       title: 'Digital Transformation',
       id: 'digital-transformation',

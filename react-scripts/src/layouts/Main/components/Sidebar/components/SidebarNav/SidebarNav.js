@@ -198,6 +198,18 @@ const SidebarNav = props => {
         <Typography
           variant="h6"
           component={'a'}
+          href='https://trainings.digital-future.me/'
+          className={clsx(classes.navLink, 'submenu-item')}
+          color="textPrimary"
+          onClick={() => onClose()}
+        >
+          Digital Bootcamps
+        </Typography>
+      </ListItem>
+      <ListItem className={classes.listItem}>
+        <Typography
+          variant="h6"
+          component={'a'}
           href='/digital-transformation'
           className={clsx(classes.navLink, 'submenu-item')}
           color="textPrimary"

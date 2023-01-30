@@ -162,6 +162,7 @@ const Topbar = ({ themeMode, themeToggler, onSidebarOpen, pages, className, ...r
   const businessSolutions = pages.businessSolutions;
   const staffAugmentation = pages.staffAugmentation;
   const digitalTransformation = pages.digitalTransformation;
+  const digitalBootcamps = pages.digitalBootcamps;
   const home = pages.home;
   const resources = pages.resources;
 
@@ -410,6 +411,29 @@ const Topbar = ({ themeMode, themeToggler, onSidebarOpen, pages, className, ...r
               >
                 <div>{renderPages(page.id)}</div>
               </Popover>
+            </div>
+          ))}
+
+          {[digitalBootcamps].map((page, i) => (
+            <div key={page.id}>
+              <ListItem
+                aria-describedby={page.id}
+                className={clsx(
+                  classes.listItem,
+                  openedPopoverId === page.id ? classes.listItemActive : '',
+                )}
+              >
+                <Typography
+                  variant="body1"
+                  color="textPrimary"
+                  component={'a'}
+                  href={page.id}
+                  target={'_blank'}
+                  className={clsx(classes.listItemText, 'menu-item')}
+                >
+                  {page.title}
+                </Typography>
+              </ListItem>
             </div>
           ))}
 
