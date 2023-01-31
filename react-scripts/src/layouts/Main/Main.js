@@ -120,6 +120,10 @@ const Main = ({ children, themeToggler, themeMode }) => {
             {
               title: 'Talent Augmentation',
               href: '/talent-augmentation',
+            },
+            {
+              title: 'Digital Bootcamps',
+              href: 'https://trainings.digital-future.me/',
             }
 
           ],
