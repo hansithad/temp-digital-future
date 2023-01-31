@@ -163,7 +163,7 @@ const Topbar = ({ themeMode, themeToggler, onSidebarOpen, pages, className, ...r
   const staffAugmentation = pages.staffAugmentation;
   const digitalTransformation = pages.digitalTransformation;
   const digitalBootcamps = pages.digitalBootcamps;
-  const home = pages.home;
+  const home = [];//pages.home;
   const resources = pages.resources;
 
   const MenuGroup = props => {

@@ -175,18 +175,7 @@ const SidebarNav = props => {
         <Divider className={classes.divider} />
       </ListItem>
 
-      <ListItem className={classes.listItem}>
-        <Typography
-          variant="h6"
-          component={'a'}
-          href='/'
-          className={clsx(classes.navLink, 'submenu-item')}
-          color="textPrimary"
-          onClick={() => onClose()}
-        >
-          Home
-        </Typography>
-      </ListItem>
+
 
       <ListItem className={classes.listItem}>
         <Typography variant="h6" color="textPrimary" gutterBottom>
