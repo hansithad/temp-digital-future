@@ -428,7 +428,6 @@ const Topbar = ({ themeMode, themeToggler, onSidebarOpen, pages, className, ...r
                   color="textPrimary"
                   component={'a'}
                   href={page.id}
-                  target={'_blank'}
                   className={clsx(classes.listItemText, 'menu-item')}
                 >
                   {page.title}
