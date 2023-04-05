@@ -80,6 +80,17 @@ const Routes = () => {
           />
         )}
       />
+      <Route
+        exact
+        path="/home"
+        render={matchProps => (
+          <WithLayout
+            {...matchProps}
+            component={CustomDesignCompanyView}
+            layout={MainLayout}
+          />
+        )}
+      />
       {/*<Route*/}
         {/*exact*/}
         {/*path="/home"*/}
